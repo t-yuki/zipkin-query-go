@@ -39,6 +39,10 @@ type Span struct {
 	 */
 	Name *string `json:"name,omitempty"`
 
+	/* ParentID parent id
+	 */
+	ParentID *string `json:"parentId,omitempty"`
+
 	/* Timestamp timestamp
 	 */
 	Timestamp int64 `json:"timestamp,omitempty"`

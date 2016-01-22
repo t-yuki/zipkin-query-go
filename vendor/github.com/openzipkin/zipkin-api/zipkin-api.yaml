@@ -211,6 +211,8 @@ definitions:
         type: string
       endpoint:
         $ref: '#/definitions/Endpoint'
+      annotation_type:
+        type: integer # TODO: it should be enum
   ListOfSpans:
     title: ListOfSpans
     description: 'A list of spans with possibly different trace ids, in no particular order'
@@ -237,6 +239,8 @@ definitions:
       name:
         type: string
       id:
+        type: string
+      parentId:
         type: string
       timestamp:
         type: integer

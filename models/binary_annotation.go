@@ -11,6 +11,10 @@ swagger:model BinaryAnnotation
 */
 type BinaryAnnotation struct {
 
+	/* AnnotationType annotation type
+	 */
+	AnnotationType *int64 `json:"annotation_type,omitempty"`
+
 	/* Endpoint endpoint
 	 */
 	Endpoint *Endpoint `json:"endpoint,omitempty"`
