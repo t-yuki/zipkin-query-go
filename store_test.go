@@ -1,4 +1,4 @@
-package zipkin_server_go_test
+package main_test
 
 import (
 	"bytes"
